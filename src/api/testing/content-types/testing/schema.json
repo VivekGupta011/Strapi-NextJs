@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testings",
+  "info": {
+    "singularName": "testing",
+    "pluralName": "testings",
+    "displayName": "Testing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "project": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "projecttype": {
+      "type": "enumeration",
+      "enum": [
+        "e-commerce",
+        "shift-Management",
+        "api"
+      ]
+    }
+  }
+}
